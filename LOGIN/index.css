@@ -1,0 +1,96 @@
+.seciont-form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    to left bottom,
+    #1d251b,
+    #242a21,
+    #2b3027,
+    #32352d,
+    #393b34
+  );
+}
+.form-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: #212121;
+  padding: 2rem 4rem;
+  border-radius: 0.8rem;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  width: 15rem;
+}
+.form-post h2 {
+  text-align: center;
+  color: white;
+}
+
+.icon-login {
+  font-size: 3rem;
+  align-self: center;
+  color: white;
+}
+
+.box-sign {
+  display: flex;
+  align-items: center;
+}
+.box-sign h4 {
+  color: white;
+  padding: 0.3rem;
+  margin-right: 1.5rem;
+}
+
+.box-sign a {
+  color: deepskyblue;
+  text-decoration: none;
+  padding: 0.3rem;
+}
+.form-post-input {
+  position: relative;
+}
+
+.form-post-input .input {
+  padding: 0.8rem 0.6rem;
+  background: transparent;
+  border: none;
+  border-bottom: 0.1rem solid #515151;
+  width: 100%;
+  outline: none;
+  margin-bottom: 1rem;
+  color: white;
+}
+.form-post-input .icon {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.form-post-input .label {
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 0.3rem;
+}
+
+.form-post-input .input:focus ~ label,
+.input:active ~ label {
+  top: -20px;
+  left: 0;
+  color: deepskyblue;
+}
+
+.form-post .button {
+  padding: 0.7rem 2rem;
+  width: 10rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  background: deepskyblue;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
